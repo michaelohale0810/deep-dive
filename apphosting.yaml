@@ -6,7 +6,7 @@ runConfig:
   # concurrency: 80
   # cpu: 1
   # memoryMiB: 512
-
+ 
 env:
   # Firebase Client Configuration (NEXT_PUBLIC_ variables need BUILD availability)
   - variable: NEXT_PUBLIC_FIREBASE_API_KEY
