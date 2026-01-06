@@ -1,9 +1,11 @@
 'use client';
 
+import React from 'react';
+
 export default function MarkdownRenderer({ content }: { content: string }) {
   // Process the content line by line
   const lines = content.split('\n');
-  const elements: JSX.Element[] = [];
+  const elements: React.ReactElement[] = [];
   let currentParagraph: string[] = [];
   let currentList: string[] = [];
   let isInList = false;
